@@ -75,7 +75,7 @@ public class RockPaperScissors {
     }
 
     private static int validateNumberInput(Scanner inputScanner, int maxNum) {
-        // validates...
+        // Checks for an integer in the range 1-maxNum
         int numInput = 0;
 
         try {
